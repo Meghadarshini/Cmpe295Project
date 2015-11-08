@@ -1,5 +1,5 @@
 package db;
-/*
+
 import java.net.UnknownHostException;
 
 import org.springframework.context.annotation.Bean;
@@ -15,7 +15,6 @@ public class AppConfig {
 		
 	}
 	public @Bean MongoTemplate mongoTemplate() throws Exception {
-		return new MongoTemplate(mongo(), "mydatabase");
+		return new MongoTemplate(mongo(), "database");
 	}
 }
-*/

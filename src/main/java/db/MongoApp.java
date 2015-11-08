@@ -1,5 +1,5 @@
 package db;
-/*
+
 import java.net.UnknownHostException;
 
 import org.springframework.data.mongodb.core.MongoOperations;
@@ -9,7 +9,7 @@ import user.User;
 
 import com.mongodb.Mongo;
 
-
+/*
 public class MongoApp {
 	public MongoOperations getInstance() {
 		MongoOperations mongoOps = null;
@@ -21,10 +21,10 @@ public class MongoApp {
 		return mongoOps;
 	}
 	
-	public void main(String[] args) throws Exception {
+	public User insertUserToRepository(User user) {
 		MongoOperations mongoOps = getInstance(); 
-		User user = null; 
 		mongoOps.insert(user);
+		return user;
 	}
 
 	
@@ -34,3 +34,4 @@ public class MongoApp {
 
 }
 */
+
